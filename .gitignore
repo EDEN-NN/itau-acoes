@@ -1,0 +1,32 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Env
+.env
+appsettings.local.json
+appsettings.Development.json
+
+# Planning folder (per requested)
+.planning/
+
+# B3 Files
+cotacoes/*.TXT
+!cotacoes/.gitkeep
+data/cotahist/
